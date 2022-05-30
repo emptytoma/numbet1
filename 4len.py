@@ -1,0 +1,12 @@
+a = input("Enter perem: ")
+def dlina():
+    return(f"     {a}      {a}\n")
+print(f"        {a}{a}")
+print(f"     {a}      {a}")
+print(f"    {a}        {a}")
+print(f"     {a}  {a} {a} ")
+print(f"{dlina()*9}   {a}{a}      {a}{a} ")
+print(f" {a}      {a}       {a}")
+print(f"{a}                 {a}")
+print(f" {a}               {a}")
+print(f"    {a}   {a}   {a}")
