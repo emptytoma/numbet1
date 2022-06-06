@@ -1,0 +1,48 @@
+#Вариант 4
+#1 Пользователь вводит с клавиатуры строку и чиисло. Напечатать введеную строку заданное число раз.
+number = int(input("Введите число: "))
+line = input("Введите строку: ")
+print(f"{line*number}")
+
+#2 Пользователь задает 2 числа - a и b. Необходимо вывести на экран все четные числа в диапазоне от a до b.
+a = int(input("Введите число а: "))
+b = int(input("Введите число b: "))
+def thetn():
+    for i in range(a, b):
+        if i % 2 ==0:
+            print(i)
+print(thetn())
+#3 В бесконечном цикле запрашивать у пользователя числа до тех пор, пока он не введет 0. Найти количество нечетных чисел.
+count = 0
+ 
+while True:
+  n = int(input())
+  if n == 0:
+    break
+  if n % 2:
+    count += 1
+ 
+print(count)
+
+#4 Создать словарь вида {имя ученика : список оценок}. Составить функцию, которая находит для каждого ученика среднюю оценку. 
+#Составить функцию которая находит ученика с наивысшей средней оценкой.
+
+evaluations = {
+    "student1" : [2, 4, 3],
+    "student2" : [3, 5, 4],
+    "student3" : [4, 5, 4]
+}
+#student = evaluations[student1].len
+#print(student)
+print(evaluations["student1"])
+
+i = 0
+max=0
+for teeth, name in evaluations.items():
+    print(f"На полке {i}")
+    print({teeth})
+    for st in range(name):
+        name
+        max==name[st]/len(name)
+        print(max)
+    print("-"*40)
